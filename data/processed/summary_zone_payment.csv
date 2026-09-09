@@ -1,0 +1,7 @@
+zone,payment_mode,orders,rto_rate,cm_total,cm_per_order
+Tier3,COD,4611,16.3,-18226.2,-4.0
+Tier2,COD,7916,10.4,451049.8,57.0
+Tier3,Prepaid,1249,2.2,91543.1,73.3
+Metro,COD,9888,8.1,906968.6,91.7
+Tier2,Prepaid,3994,2.1,405738.2,101.6
+Metro,Prepaid,11697,1.8,1428750.7,122.1

@@ -1,0 +1,173 @@
+{
+  "rows_raw": 40180,
+  "dupes": 180,
+  "missing_pincode": 602,
+  "neg_discount": 120,
+  "zero_value": 45,
+  "cancelled": 1111,
+  "dropped_no_pincode_pct": 1.5,
+  "missing_bias_check": {
+    "COD": 0.528,
+    "Prepaid": 0.472
+  },
+  "phantom_shipping_rows": 134,
+  "rows_clean": 39355,
+  "total_revenue": 21722782,
+  "total_cm": 3265824,
+  "cm_pct": 15.0,
+  "loss_orders": 11169,
+  "loss_order_pct": 28.4,
+  "loss_value": -1148442,
+  "profit_value": 4414266,
+  "leak_as_pct_of_profit": 26.0,
+  "segments": [
+    {
+      "zone": "Tier3",
+      "payment_mode": "COD",
+      "orders": 4611,
+      "rto_rate": 16.3,
+      "cm_total": -18226.2,
+      "cm_per_order": -4.0
+    },
+    {
+      "zone": "Tier2",
+      "payment_mode": "COD",
+      "orders": 7916,
+      "rto_rate": 10.4,
+      "cm_total": 451049.8,
+      "cm_per_order": 57.0
+    },
+    {
+      "zone": "Tier3",
+      "payment_mode": "Prepaid",
+      "orders": 1249,
+      "rto_rate": 2.2,
+      "cm_total": 91543.1,
+      "cm_per_order": 73.3
+    },
+    {
+      "zone": "Metro",
+      "payment_mode": "COD",
+      "orders": 9888,
+      "rto_rate": 8.1,
+      "cm_total": 906968.6,
+      "cm_per_order": 91.7
+    },
+    {
+      "zone": "Tier2",
+      "payment_mode": "Prepaid",
+      "orders": 3994,
+      "rto_rate": 2.1,
+      "cm_total": 405738.2,
+      "cm_per_order": 101.6
+    },
+    {
+      "zone": "Metro",
+      "payment_mode": "Prepaid",
+      "orders": 11697,
+      "rto_rate": 1.8,
+      "cm_total": 1428750.7,
+      "cm_per_order": 122.1
+    }
+  ],
+  "cod_cm_per_order": 59.8,
+  "prepaid_cm_per_order": 113.7,
+  "cod_metro_cm": 91.7,
+  "cod_tier3_cm": -4.0,
+  "courier_raw": {
+    "BharatShip": 56.2,
+    "SwiftLogix": 95.9,
+    "ZipEx": 92.6
+  },
+  "courier_controlled": {
+    "Metro": {
+      "BharatShip": 108.4,
+      "SwiftLogix": 108.1,
+      "ZipEx": 108.4
+    },
+    "Tier2": {
+      "BharatShip": 69.4,
+      "SwiftLogix": 71.2,
+      "ZipEx": 76.6
+    },
+    "Tier3": {
+      "BharatShip": 13.2,
+      "SwiftLogix": 13.5,
+      "ZipEx": 7.4
+    }
+  },
+  "courier_mix_pct": {
+    "Metro": {
+      "BharatShip": 21.8,
+      "SwiftLogix": 72.6,
+      "ZipEx": 64.1
+    },
+    "Tier2": {
+      "BharatShip": 39.6,
+      "SwiftLogix": 23.9,
+      "ZipEx": 29.6
+    },
+    "Tier3": {
+      "BharatShip": 38.5,
+      "SwiftLogix": 3.5,
+      "ZipEx": 6.3
+    }
+  },
+  "bharatship_tier3_share": 38.5,
+  "band": [
+    {
+      "value_band": "Under 300",
+      "orders": 4947,
+      "avg_delivery_fee": 44.1,
+      "avg_shipping_cost": 87.2,
+      "cm_per_order": -22.2,
+      "cm_total": -109982.6
+    },
+    {
+      "value_band": "300-499",
+      "orders": 11192,
+      "avg_delivery_fee": 43.6,
+      "avg_shipping_cost": 87.2,
+      "cm_per_order": 17.2,
+      "cm_total": 192715.1
+    },
+    {
+      "value_band": "500-699",
+      "orders": 11307,
+      "avg_delivery_fee": 0.0,
+      "avg_shipping_cost": 86.3,
+      "cm_per_order": 53.0,
+      "cm_total": 599158.1
+    },
+    {
+      "value_band": "700-999",
+      "orders": 8855,
+      "avg_delivery_fee": 0.0,
+      "avg_shipping_cost": 84.6,
+      "cm_per_order": 181.7,
+      "cm_total": 1608512.3
+    },
+    {
+      "value_band": "1000+",
+      "orders": 3054,
+      "avg_delivery_fee": 0.0,
+      "avg_shipping_cost": 86.2,
+      "cm_per_order": 319.4,
+      "cm_total": 975421.3
+    }
+  ],
+  "cliff_orders": 11307,
+  "cliff_cm": 53.0,
+  "target_orders": 3289,
+  "target_share_pct": 8.4,
+  "target_cm": -181825,
+  "target_cm_per_order": -55.3,
+  "target_rto": 17.0,
+  "prepaid_analogue_cm_per_order": 12.6,
+  "scenario_convert_rate": 0.35,
+  "scenario_net_gain": 196329,
+  "scenario_revenue_at_risk": 961197,
+  "lever2_orders": 10176,
+  "lever2_fee_gain": 373968,
+  "combined_annual_gain": 570297
+}
