@@ -230,8 +230,8 @@ brightbasket-margin-leak/
 └── docs/
     ├── ASSUMPTIONS.md               every number I assumed
     ├── AI_USAGE.md                  how I used AI
-    └── INTERVIEW_PREP.md            my notes on defending this
-```
+
+``
 
 To run it yourself, see [SETUP.md](SETUP.md).
 
